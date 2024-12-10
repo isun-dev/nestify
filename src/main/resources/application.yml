@@ -1,0 +1,33 @@
+spring:
+  application:
+    name: nestify-api
+  profiles:
+    active: local
+  config:
+    import:
+      - classpath:database-nestify.yml
+  security:
+    user:
+      name: user
+      password: 1234
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+server:
+  port: 8087
+---
+
+spring:
+  config:
+    activate:
+      on-profile: local
+
+management:
+  endpoints:
+    web:
+      base-path: /actuator
+      exposure:
+        include: "*"

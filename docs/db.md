@@ -1,0 +1,2 @@
+# 참고 자료
+- https://velog.io/@kjy0302014/%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%B2%A0%EC%9D%B4%EC%8A%A4-%ED%98%95%EC%83%81%EA%B4%80%EB%A6%ACMigration%ED%88%B4-%EB%B9%84%EA%B5%90
